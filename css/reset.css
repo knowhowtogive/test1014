@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+html{font-size: 15px;}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Inter","Noto Sans KR",sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: #000;
+}
+ol, ul, li{
+  list-style: none;
+}
+a{
+  color: #000;
+  text-decoration: none;
+}
+address, em{
+  font-style: normal;
+}
+caption, legend{
+  display: none;
+}
+select, input, fieldset{vertical-align: top; border: 0;}
+input{outline: none;}
+img{vertical-align: top; border: 0;}

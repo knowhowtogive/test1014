@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reposé</title>
+
+  <!--favicon-->
+  <link rel="icon" href="images/favicon.ico">
+
+  <!--font-->
+  <link rel="stylesheet" href="css/font.css">
+
+  <!--icon-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <!--css-->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/jquery.fullPage.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!--js-->
+  <script defer src="js/jquery-3.7.1.min.js"></script>
+  <script defer src="js/jquery.fullPage.js"></script>
+  <script defer src="js/common.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <div id="wrap">
+    <header>
+      <div class="inner">
+        <div class="section-name">
+          <p>.(Welcome)</p>
+        </div>
+  
+        <nav>
+          <ul class="gnb">
+            <li class="gnb-area1">
+              <a href="#" class="depth1">01 PRODUCT</a>
+              <ul class="depth2" id="depth2-1">
+                <li><a href="#">DUVET</a></li>
+                <li><a href="#">SOFA</a></li>
+                <li><a href="#">TABLE&CHAIR</a></li>
+                <li><a href="#">SHELF</a></li>
+              </ul>
+            </li>
+            <li class="gnb-area2">
+              <a href="#" class="depth1">02 ABOUT</a>
+              <ul class="depth2" id="depth2-2">
+                <li><a href="#">IDENTITY</a></li>
+                <li><a href="#">IDEOLOGY</a></li>
+                <li><a href="#">CARE SERVICE</a></li>
+                <li><a href="#">CUSTOM ORDER</a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="depth1">03 LOOKBOOK</a></li>
+            <li class="gnb-area3">
+              <a href="#" class="depth1">04 COMMUNITY</a>
+              <ul class="depth2" id="depth2-3">
+                <li><a href="#">NOTICE</a></li>
+                <li><a href="#">CUSTOMER CENTER</a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="depth1">05 REVIEW</a></li>
+          </ul>
+
+          <div class="m-gnb-wrap">
+            <div class="section-name">
+              <p>.(Menu)</p>
+            </div>
+
+            <div class="m-close">
+              <span class="material-symbols-outlined">
+                close
+              </span>
+            </div>
+
+            <ul class="m-gnb">
+              <li>
+                <div class="m-gnb-logo">
+                  <img src="images/logo_white.png" alt="헤브즈">
+                </div><!--.m-gnb-logo-->
+              </li>
+              <li>
+                <div class="m-depth1">
+                  <p>01 PRODUCT</p>
+                  <span class="material-symbols-outlined" id="drop1">
+                    arrow_drop_down
+                  </span>
+                </div><!--.m-depth1-->
+                <ul class="m-depth2" id="m-depth2-1">
+                  <li><a href="#">DUVET</a></li>
+                  <li><a href="#">SOFA</a></li>
+                  <li><a href="#">TABLE&CHAIR</a></li>
+                  <li><a href="#">SHELF</a></li>
+                </ul>
+              </li>
+              <li>
+                <div class="m-depth1">
+                  <p>02 ABOUT</p>
+                  <span class="material-symbols-outlined" id="drop2">
+                    arrow_drop_down
+                  </span>
+                </div><!--.m-depth1-->
+                <ul class="m-depth2" id="m-depth2-2">
+                  <li><a href="#">IDENTITY</a></li>
+                  <li><a href="#">IDEOLOGY</a></li>
+                  <li><a href="#">CARE SERVICE</a></li>
+                  <li><a href="#">CUSTOM ORDER</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="m-depth1">03 LOOKBOOK</a></li>
+              <li>
+                <div class="m-depth1">
+                  <p>04 COMMUNITY</p>
+                  <span class="material-symbols-outlined" id="drop3">
+                    arrow_drop_down
+                  </span>
+                </div><!--.m-depth1-->
+                <ul class="m-depth2" id="m-depth2-3">
+                  <li><a href="#">ANNOUNCEMENT</a></li>
+                  <li><a href="#">CUSTUMER CENTER</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="m-depth1">05 REVIEW</a></li>
+            </ul>
+          </div><!--.m-gnb-wrap-->
+        </nav>
+  
+        <ul class="utill">
+          <li>
+            <a href="#" id="cart">
+              <span class="material-symbols-outlined cart">
+                shopping_cart
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#" id="mypage">
+              <span class="material-symbols-outlined mypage">
+                account_circle
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#" id="menu">
+              <span class="material-symbols-outlined menu" >
+                menu
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div><!--.inner-->
+    </header>
+
+    <div id="fullpage">
+      <section class="section" id="main-visual" data-anchor="section1">
+        <div class="txt-box">
+          <h1>
+            <img src="images/logo_white.png" alt="헤브즈">
+          </h1>
+          <p>
+            Welcome to Reposé.<br>
+            Comfort, high quality, low price, brilliant color sense,<br>
+            care service, eco-friendly.<br>
+            We can make your dreams come true.
+          </p>
+          <span>
+            Since 1986
+          </span>
+        </div><!--.txt-box-->
+        <video src="images/main-visual.mp4" data-autoplay muted loop playsinline></video>
+      </section><!--#main-visual-->
+
+      <section class="section" id="intro" data-anchor="section2">
+        <div class="txt-box">
+          <h2>Find your emotions<br>
+            when you are
+          </h2>
+          <div class="logo-box">
+            <img src="images/logo_black_dot.png" alt="헤브즈" class="logo_black">
+            <img src="images/logo_red_dot.png" alt="헤브즈" class="logo_red">
+          </div><!--.logo-box-->
+        </div><!--.txt-box-->
+        <div class="img-box">
+          <img src="images/butterfly1.png" alt="나비1" class="butterfly1">
+          <img src="images/butterfly2.png" alt="나비2" class="butterfly2">
+          <img src="images/jeanflower.png" alt="청꽃" class="jeanflower">
+          <img src="images/jeanstar.png" alt="청별" class="jeanstar">
+          <img src="images/hug.png" alt="포옹" class="hug">
+          <img src="images/star.png" alt="별" class="star">
+        </div><!--.img-box-->
+      </section><!--#intro-->
+
+      <section class="section" id="collection" data-anchor="section3">
+        <div class="txt-box">
+          <h2>The new<br>
+            <span>24 Collection</span><br>
+            ARRIVALS
+          </h2>
+          <div class="more">
+            <a href="#">컬렉션 구매하기</a>
+            <a href="#">컬렉션 보러가기</a>
+          </div><!--.txt-box-->
+        </div><!--.more-->
+        <video src="images/collection.mp4" data-autoplay muted loop playsinline></video>
+      </section><!--#collection-->
+
+      <section class="section" id="bestseller" data-anchor="section4">
+        <div class="inner">
+          <div class="left">
+            <div class="txt-box">
+              <h3>01</h3>
+              <h2>Couler Sofa</h2>
+              <p>
+                구조적 형태와 독창적인 실루엣이 포인트인 쿨리 소파는 메커니즘 디자인을 현대적으로 재해석한 소파입니다.
+              </p>
+              <p>
+                대담하게 각진 쉐입의 쿠션과 떠 있는듯한 효과를 주는 다리의 기하학적<br>
+                디테일은 강한 존재감을 느끼게 합니다. 전체적으로 단순하지만 뚜렷하고 강렬한 특징을 보여주는 쿨리의 구조화된 아름다움을 느껴보세요.
+              </p>
+            </div><!--.txt-box-->
+            <div class="more">
+              <a href="#">
+                view more
+                <img src="images/bestseller_more.png" alt="화살표">
+              </a>
+            </div><!--.more-->
+            
+            <div class="bestseller-tap-btn">
+              <ul>
+                <li><img src="images/bestseller_sub1.png" alt="베스트셀러1"></li>
+                <li><img src="images/bestseller_main.png" alt="베스트셀러2"></li>
+                <li><img src="images/bestseller_sub3.png" alt="베스트셀러3"></li>
+                <li><img src="images/bestseller_sub4.png" alt="베스트셀러4"></li>
+              </ul>
+            </div><!--.bestseller-tap-btn-->
+          </div><!--.left-->
+          <div class="right">
+            <div class="bestseller-tap-con">
+              <ul>
+                <li>
+                  <a href="#">
+                    <img src="images/bestseller_sub1.png" alt="베스트셀러 메인">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/bestseller_main.png" alt="베스트셀러 메인">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/bestseller_sub3.png" alt="베스트셀러 메인">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/bestseller_sub4.png" alt="베스트셀러 메인">
+                  </a>
+                </li>
+              </ul>
+            </div><!--.bestseller-tap-con-->
+          </div><!--.right-->
+        </div><!--.inner-->
+      </section><!--#bestseller-->
+
+      <section class="section" id="care-service" data-anchor="section5">
+        <div class="txt-box">
+          <h3>Care service</h3>
+          <p>
+            헤브즈의 케어 서비스는 가구의 우수한 품질과 기술력에 대한 자부심이며, 헤브즈만의 철학의 표현이자 약속입니다.
+            제품을 구매하면서 가지게 되는 유지 관리, 지속성에 대해 고민하며 발전을 이루기 위해 노력합니다. 헤브즈만의 세심한 케어 서비스에 대해 자세히 알아보세요.
+          </p>
+          <a href="#">자세히 보기</a>
+        </div><!--.txt-box-->
+        <video src="images/care.mp4" data-autoplay muted loop playsinline></video>
+      </section><!--#care-service-->
+
+      <section class="section" id="custom-order" data-anchor="section6">
+        <div class="txt-box">
+          <h3>Custom order</h3>
+          <p>
+            헤브즈만의 프리미엄 주문제작 서비스를 경험해보세요.가구에 공간을 맞추는 것이 아닌 가구를 공간에 맞추어감으로서 나의 공간, 진정한 나 자신을 찾아가는 것이 헤브즈의 목표입니다.나의 공간을 만들어가는 과정에 헤브즈의 섬세한 시각과 기술을 더해보세요. 
+          </p>
+          <a href="#">자세히 보기</a>
+        </div><!--.txt-box-->
+        <video src="images/custom.mp4" data-autoplay muted loop playsinline></video>
+      </section><!--#custom-order-->
+
+      <section class="section" id="review" data-anchor="section7">
+        <div class="inner">
+          <h2>review</h2>
+          <div class="img-box">
+            <a href="#"><img src="images/review_1.png" alt="리뷰"></a>
+            <a href="#"><img src="images/review_2.png" alt="리뷰"></a>
+            <a href="#"><img src="images/review_3.png" alt="리뷰"></a>
+            <a href="#"><img src="images/review_4.png" alt="리뷰"></a>
+            <a href="#"><img src="images/review_5.png" alt="리뷰"></a>
+            <a href="#"><img src="images/review_6.png" alt="리뷰"></a>
+            <a href="#"><img src="images/review_7.png" alt="리뷰" class="pc-review"></a>
+            <a href="#"><img src="images/review_8.png" alt="리뷰" class="pc-review"></a>
+            <a href="#"><img src="images/review_9.png" alt="리뷰" class="pc-review"></a>
+            <a href="#"><img src="images/review_10.png" alt="리뷰" class="pc-review"></a>
+          </div><!--.inner-->
+          <a href="#">view more</a>
+        </div><!--.img-box-->
+      </section><!--#review-->
+
+      <footer class="section fp-auto-height">
+        <div class="info">
+          <a href="#">회사소개</a>
+          <a href="#">개인정보취급방침</a>
+          <a href="#">이용약관</a>
+          <a href="#">공식달러인증서</a>
+          <a href="#">개인결제창</a>
+        </div><!--#.info-->
+        <p class="address">
+          상호명 : Reposé(주) 대표이사 : 박지선<br>
+          경기도 성남시 분당구 황새울로 234, 262호<br>
+          TEL 000. 000. 0000 FAX 000. 000. 0000
+        </p>
+        <img src="images/line_white.png" alt="구분선" class="line">
+        <img src="images/logo_white.png" alt="헤브즈" class="logo">
+        <p class="copy">Copyright ⓒ 2024 Reposé All Right Reserved</p>
+        <div class="sns">
+          <a href="#"><img src="images/insta_symbol.png" alt="인스타그램"></a>
+          <a href="#"><img src="images/facebook_symbol.png" alt="페이스북"></a>
+          <a href="#"><img src="images/twitter_symbol.png" alt="트위터"></a>
+        </div><!--.sns-->
+      </footer>
+    </div><!--#fullpage-->
+  </div><!--#wrap-->
+</body>
+</html>
